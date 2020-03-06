@@ -113,7 +113,7 @@
 				var new_coords = "";
 				for(var c of tm_coords){
 					new_coords = new_coords ? (new_coords + ',' + (c * scale/100)) : (c * scale/100);
-					console.log(c + "\n"+(c * scale/100));
+					//console.log(c + "\n"+(c * scale/100));
 				}
 				
 				$(a).attr('coords',new_coords);
